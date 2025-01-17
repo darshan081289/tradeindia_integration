@@ -1,1 +1,18 @@
+[pre_model_sync]
+# Patches to run before model sync
+tradeindia_integration.patches.v1_0.create_custom_fields
+tradeindia_integration.patches.v1_0.create_tradeindia_settings
 
+[post_model_sync]
+# Patches to run after model sync
+tradeindia_integration.patches.v1_0.update_lead_source
+tradeindia_integration.patches.v1_0.set_default_settings
+tradeindia_integration.patches.v1_0.update_custom_fields
+
+[auth_patch]
+# Authentication related patches
+tradeindia_integration.patches.v1_0.update_api_key_field
+
+[data_patch]
+# Data migration patches
+tradeindia_integration.patches.v1_0.migrate_existing_leads
