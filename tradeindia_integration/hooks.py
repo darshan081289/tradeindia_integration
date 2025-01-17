@@ -1,46 +1,20 @@
 from . import __version__ as app_version
 
+# tradeindia_integration/tradeindia_integration/hooks.py
+
 app_name = "tradeindia_integration"
 app_title = "TradeIndia Integration"
 app_publisher = "Your Name"
 app_description = "Integration between TradeIndia and ERPNext"
-app_email = "your.email@example.com"
+app_email = "your@email.com"
 app_license = "MIT"
 
 # Includes in <head>
-# ------------------
-app_include_js = "/assets/tradeindia_integration/js/tradeindia_integration.js"
-app_include_css = "/assets/tradeindia_integration/css/tradeindia_integration.css"
+app_include_js = "/assets/tradeindia_integration/js/tradeindia_integration.min.js"
 
-# Include Fixtures
-# ---------------
+# Auto-created on install
 fixtures = [
-    {
-        "doctype": "Custom Field",
-        "filters": [
-            [
-                "name",
-                "in",
-                [
-                    "Lead-tradeindia_lead_id",
-                    "Lead-tradeindia_source_info"
-                ]
-            ]
-        ]
-    },
-    {
-        "doctype": "Property Setter",
-        "filters": [
-            [
-                "doc_type",
-                "in",
-                ["Lead"]
-            ]
-        ]
-    },
-    "Custom Script",
-    "Client Script",
-    "Server Script"
+    {"dt": "Custom Field", "filters": [["module", "=", "TradeIndia Integration"]]},
 ]
 
 # Document Events
