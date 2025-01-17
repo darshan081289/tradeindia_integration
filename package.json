@@ -1,18 +1,11 @@
 {
-    "name": "tradeindia_integration",
-    "version": "0.0.1",
-    "description": "TradeIndia Integration for ERPNext",
-    "main": "index.js",
-    "scripts": {
-        "build": "node esbuild"
-    },
-    "keywords": [
-        "frappe"
-    ],
-    "author": "Your Name",
-    "license": "MIT",
-    "dependencies": {},
-    "devDependencies": {
-        "esbuild": "^0.15.0"
-    }
+  "name": "tradeindia_integration",
+  "version": "1.0.0",
+  "description": "ERPNext TradeIndia Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
 }
