@@ -1,14 +1,9 @@
-{
-    "name": "tradeindia_integration",
-    "version": "1.0.0",
-    "description": "TradeIndia Integration for ERPNext",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "frappe"
-    ],
-    "author": "Your Name",
-    "license": "MIT"
-}
+// tradeindia_integration/tradeindia_integration/public/js/tradeindia_integration.js
+
+frappe.provide('tradeindia_integration');
+
+tradeindia_integration = {
+    init: function() {
+        // Initialization code
+    }
+};
