@@ -1,0 +1,10 @@
+{
+    "name": "tradeindia_integration",
+    "title": "TradeIndia Integration",
+    "description": "Integration between TradeIndia and ERPNext",
+    "version": "0.0.1",
+    "publisher": "Your Name",
+    "email": "your@email.com",
+    "home_page": "https://github.com/yourusername/tradeindia_integration",
+    "license": "MIT"
+}
