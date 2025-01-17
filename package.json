@@ -4,14 +4,15 @@
     "description": "TradeIndia Integration for ERPNext",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "node esbuild"
     },
     "keywords": [
         "frappe"
     ],
     "author": "Your Name",
     "license": "MIT",
-    "dependencies": {
-        "frappe-datatable": "^1.13.5"
+    "dependencies": {},
+    "devDependencies": {
+        "esbuild": "^0.15.0"
     }
 }
